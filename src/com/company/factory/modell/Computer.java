@@ -1,4 +1,4 @@
-package com.company.factory.modells;
+package com.company.factory.modell;
 
 public abstract class Computer {
     public abstract String getCpu();

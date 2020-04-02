@@ -1,13 +1,16 @@
-package com.company.factory.modells;
+package com.company.factory.modell.implementations;
 
-public class Server  extends Computer{
+import com.company.factory.modell.Computer;
+
+public class SuperComputer extends Computer {
+
     private String cpu;
     private String ram;
     private String hdd;
     private String ssd;
     private String videoCard;
 
-    public Server(String cpu, String ram, String hdd, String ssd, String videoCard) {
+    public SuperComputer(String cpu, String ram, String hdd, String ssd, String videoCard) {
         this.cpu = cpu;
         this.ram = ram;
         this.hdd = hdd;

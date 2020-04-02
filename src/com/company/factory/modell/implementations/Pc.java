@@ -1,4 +1,6 @@
-package com.company.factory.modells;
+package com.company.factory.modell.implementations;
+
+import com.company.factory.modell.Computer;
 
 public class Pc extends Computer {
 
